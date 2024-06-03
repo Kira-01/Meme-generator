@@ -12,7 +12,7 @@ A simple JavaScript project that displays a random meme joke quote riddle and al
 
 ## How to Use
 
-1. Open the `index.html` file in a web browser
+1. Open the `memehtml.html` file in a web browser
 2. Click the "Show meme" "Show joke" "Show quote" or "Show Riddle" button to display an output.
 3. Click the "Reveal Answer" button to show the answer to the riddle
 
