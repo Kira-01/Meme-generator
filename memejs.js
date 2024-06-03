@@ -44,39 +44,6 @@ function showQuote() {
 }
 
 
-/*function showRiddle() {
-  const randomRiddle = getRandomData("riddles");
-  const question = randomRiddle.question;
-  const answer = randomRiddle.answere;
-  const questionElem =document.createElement('p');
-  questionElem.textContent=question;
-  const answerElem =document.createElement('p');
-  answerElem.textContent='The answer is: '+ answer;
-  answerElem.setAttribute('id','-riddle-content');
-  answerElem.hidden = true;
-
-  const container = document.querySelector(".riddle-content");
-  clearAll();
-  container.appendChild(questionElem);
-  container.appendChild(answerElem);
-
-}
-
-
-function revealAnswers() {
-    const riddlecontainer = document.querySelector('.riddle-content');
-    const riddle =riddlecontainer.querySelector('p');
-    const answer=document.querySelector("#riddle-answer");
-
-    if (riddle && answer.hidden){
-        answer.hidden = false;
-    } else if(riddle) {
-        alert('The answer is already revealed!')
-    } else{
-        alert('There is no riddle to reveal!')
-    }
-}
-*/
 
 function showRiddle() {
     const randomRiddle = getRandomData("riddles");
